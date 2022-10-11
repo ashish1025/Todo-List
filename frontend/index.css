@@ -1,0 +1,43 @@
+#header{
+    left:30%;
+}
+#newTodoTitle{
+    /* margin: 5px; */
+    height: 25px;
+    width: 100px;
+}
+#newTodoDescription{
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    height: 25px;
+    width:150px;
+}
+
+.button {
+    transition-duration: 0.4s;
+    /* margin-left:25%; */
+    margin-bottom: 5px;
+  }
+  
+  .button:hover {
+    background-color: white; /* Green */
+  }
+
+  #wrapper{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:cyan;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+
+  #TodoList,th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+  } 
+#TodoList{
+    margin-top: 10px;
+    
+}

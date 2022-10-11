@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Todo List</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <script src="index.js" async defer></script>
+        <div id="wrapper">
+            <h1 id="header">Todo List</h1>
+            <form>
+                <input type="text" placeholder="Todo Title" id="newTodoTitle" />
+                <input
+                    type="text"
+                    placeholder="Todo Description"
+                    id="newTodoDescription"
+                    name="description"
+                />
+                <br />
+
+                <button
+                    type="submit"
+                    class="button"
+                    onclick="handleSubmit(event)"
+                >
+                    Add Todo
+                </button>
+            </form>
+            <table id="TodoList"></table>
+        </div>
+    </body>
+</html>
